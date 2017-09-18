@@ -110,7 +110,8 @@
 
   # log with a text-based graphical representation of the commit history.
   lg = log --graph
-
+  lgp = log --graph --oneline --decorate --max-count=40 --pretty=format:'%Cred%h%Creset - %Cgreen(%cd) %C(bold cyan)%d%Creset %s %Cgreen(%cr) %C(bold red)<%an>%Creset' --date=format:'%Y-%m-%d'
+  
   # log with one line per item.
   lo = log --oneline
 
